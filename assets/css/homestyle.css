@@ -1,0 +1,20 @@
+* {
+	margin:	0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.carousel {
+	max-height: 100%;
+}
+
+.carousel-controls {
+	height: 100vh;
+
+}
+
+.carousel-item img {
+	height: 80vh;
+	max-height: 80vh;
+
+}
+
