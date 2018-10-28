@@ -13,7 +13,7 @@
 
 .navbar-brand {
 	min-height: 55px;
-	padding: 0 15px 5px;
+	padding: 0px 15px 5px;
 }
 
 .navbar-default .navbar-nav li a {
@@ -41,8 +41,10 @@
 }
 
 .jumbotron {
-	margin-bottom: 0;
+	margin-bottom: 0px;
 	color: black;
+	font-family: 'Libre Franklin', sans-serif;
+
 }
 
 #jumbotron-about {
@@ -52,6 +54,7 @@
 	position: relative;
 	width: 100%;
 	background-size: cover;
+
 }	
 
 
@@ -62,6 +65,7 @@
 	width: 100%;
 	background-size: cover;
 	opacity: 0.4;
+
 }
 
 #vision {
@@ -71,6 +75,7 @@
 	width: 100%;
 	background-size: cover;
 	opacity: 0.4;
+
 
 }
 
@@ -85,12 +90,18 @@
 
 .lead	{
 	color: black;
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 35px;
+
 }
 
 h2 {
 	color: black;
 	font-weight: 100px;
+
 }
+
+
 	
 
 
@@ -98,7 +109,7 @@ h2 {
 footer {
 	width: 100%;
 	background-color: black;
-	padding: 5% 5% 10% 5%;
+	padding: 5%, 5%, 5%, 5%,;
 	color: #FFF;
 }
 
@@ -141,7 +152,7 @@ color: #fff;
 }
 
 #landing-about {
-	font-family: 'Monserrat', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
 	color: white;
 	font-weight: 50px;
 	font-size: 5em;
@@ -151,6 +162,7 @@ color: #fff;
 
 .text-center {
 	color: white;
+	font-weight: 50px;
 
 }
 
