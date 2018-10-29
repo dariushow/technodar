@@ -36,6 +36,21 @@
 
 }
 
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 /*overlay*/
 
 
@@ -199,3 +214,4 @@ h2 {
 /*tablet styles*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 }
+

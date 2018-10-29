@@ -1,0 +1,185 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/login.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+
+.loginbox {
+	width: 320px;
+	height: 420px;
+	background: #5394DA;
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	opacity: 0.9;
+	padding: 70px 30px;
+}
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+h1	{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.loginbox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: white;
+	color: black;
+	font-size: 18px;
+	border-radius: 50px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: aqua;
+	color: #000;
+}
+
+
+.text1 {
+	color: white;
+	font-weight: 100px;
+}
+
+.text1:hover
+{
+	background: aqua;
+	color: #000;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+ul li .active a{
+	background-color: #fff;
+	color: #000;
+
+
+	.title h1 {
+	color: white;
+	font-size: 30px;
+	margin-bottom: 130px;
+}
+
+.btn {
+	border: 1px solid #fff;
+	padding: 1px 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 1px 1px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+
+}
+
+.contacts {
+	background-color: orange;
+	min-height: 50px;
+}
+ img[alt*="social"] {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+ .contacts {
+	float: right;
+	border-color: black;
+	border-size: 500px;
+ }
+
+}
+
+/*Tablet styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+	.title h1 {
+	color: white;
+	font-size: 30px;
+	margin-bottom: 130px;	
+}
+
+body
+
+	ul li a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 1px 1px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+
+	/*Desktop styles*/
+@media only screen and (min-width: 961px) {

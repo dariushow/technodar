@@ -42,6 +42,10 @@ font-family: 'Libre Franklin', sans-serif;
 
 }
 
+.text-div {
+	font-size: 25px;
+}
+
 
 #home {
 	background: url(../img/techy.jpg) no-repeat center center fixed;
@@ -283,7 +287,10 @@ img-responsive {
 }
 
 /*tablet styles*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 401px) and (max-width: 1200px) {
+	#home {
+		height: 1200px;
+	}
 }
 
 
