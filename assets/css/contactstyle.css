@@ -41,20 +41,19 @@
 }
 
 .jumbotron {
-	margin-bottom: 0px;
-	color: black;
+	height: 300px;
+	width: 100%;
+	color: white;
 	font-family: 'Libre Franklin', sans-serif;
 
 }
 
 #jumbotron-about {
-	background: url(../img/contactme.jpg) no-repeat center center fixed;
 	display: table;
 	height: 900px;
 	position: relative;
 	width: 100%;
 	background-size: cover;
-
 }	
 
 

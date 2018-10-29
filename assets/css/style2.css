@@ -58,16 +58,26 @@ font-family: 'Libre Franklin', sans-serif;
 
 }
 
-#home2 {
-	background: url(../img/giphy.jpg) no-repeat center center fixed;
-	display: block;
-	height: 500px;
-	position: relative;
+
+#row1 img {
 	width: 100%;
-	background-size: cover;
+	position: relative;
 	
-	
+
 }
+
+.jumbotron {
+	margin-top: 0px;
+	background: url(../img/giphy.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 400px;
+	margin-bottom: 8px;
+	color: white;
+	height: 300px;
+	width: 100%;
+}
+
 
 #tech {
 	height: 250px;
