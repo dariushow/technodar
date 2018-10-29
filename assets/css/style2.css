@@ -50,7 +50,7 @@ font-family: 'Libre Franklin', sans-serif;
 #home {
 	background: url(../img/techy.jpg) no-repeat center center fixed;
 	display: table;
-	height: 900px;
+	height: 1100px;
 	position: relative;
 	width: 100%;
 	background-size: cover;
@@ -60,11 +60,12 @@ font-family: 'Libre Franklin', sans-serif;
 
 #home2 {
 	background: url(../img/giphy.jpg) no-repeat center center fixed;
-	display: table;
-	height: 900px;
+	display: block;
+	height: 500px;
 	position: relative;
 	width: 100%;
 	background-size: cover;
+	
 	
 }
 
@@ -301,9 +302,7 @@ img-responsive {
   	#home2 {
   	background: url(../img/giphy.jpg) no-repeat center center fixed;
 	display: table;
-	height: 667px;
 	position: relative;
-	width: 100%;
 	background-size: cover;
 }
 }
@@ -316,6 +315,13 @@ img-responsive {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
+  	#home2 {
+  	background: url(../img/giphy.jpg) no-repeat center center fixed;
+	display: table;
+	position: relative;
+	background-size: cover;
+}
+
 }
 
 /* ----------- iPhone X ----------- */
@@ -325,8 +331,5 @@ img-responsive {
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-  	#home img {
-  		height: 
-  	}
 
 }
