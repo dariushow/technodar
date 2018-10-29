@@ -286,19 +286,26 @@ img-responsive {
 
 }
 
-/*tablet styles*/
+//**tablet styles*/
 @media only screen and (min-width: 401px) and (max-width: 1200px) {
 	#home {
 		height: 1200px;
 	}
-}
+}*/
 
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-
+  	#home2 {
+  	background: url(../img/giphy.jpg) no-repeat center center fixed;
+	display: table;
+	height: 667px;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
@@ -318,5 +325,8 @@ img-responsive {
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+  	#home img {
+  		height: 
+  	}
 
 }
