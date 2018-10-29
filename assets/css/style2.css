@@ -63,10 +63,10 @@ font-family: 'Libre Franklin', sans-serif;
 	height: 900px;
 	position: relative;
 	width: 100%;
-	background-size: contain;
-	-webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
+	background-size: cover;
+	background-position: 100% top;
+	background-attachment: fixed;
+	
 	
 }
 
